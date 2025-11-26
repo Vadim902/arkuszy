@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Układ semantyczny</title>
+    <style>
+ body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        nav {
+            border: 1px solid black;
+            padding: 20px;
+            font-size: 20px;
+            background: #f2f2f2;
+        }
+
+        main {
+            display: flex;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+        }
+        #lewo, #center, #prawo {
+            flex: 1;
+            padding: 40px 10px;
+            border-right: 1px solid black;
+        }
+
+        #prawo {
+            border-right: none;
+        }
+
+        footer {
+            border: 1px solid black;
+            border-top: none;
+            padding: 20px;
+            background: #f2f2f2;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <a href="index13.html">Wróć</a>
+    <nav>Blok naglówkowy</nav>
+
+    <main>
+        <section id="lewo"> Blok sekcji lewej></section>
+        <section id="center"> Blok sekcji centralnej></section>
+        <section id="prawo">Blok sekcji prawej</section>
+    </main>
+    
+    <footer>Blok stopki</footer>
+</body>
+</html>

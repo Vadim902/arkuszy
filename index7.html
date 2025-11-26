@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Układ semantyczny</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+
+    nav, main, aside, section, footer {
+        border: 1px solid black;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    main {
+        display: flex;
+        padding: 0;          
+    }
+
+    aside, section {
+        flex: 1;
+        padding: 40px;       
+    }
+
+    aside {
+        border-right: 1px solid black;
+    }
+</style>
+</head>
+<body>
+    <a href="index13.html">Wróć</a>
+
+<nav>Blok nawigacyjny</nav>
+
+<main>
+    <aside>Blok boczny</aside>
+    <section>Sekcja</section>
+</main>
+
+<footer>Blok stopki</footer>
+
+</body>
+</html>
